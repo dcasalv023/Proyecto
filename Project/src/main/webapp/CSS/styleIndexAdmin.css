@@ -1,0 +1,99 @@
+h1 {
+    color: gray;
+    font-size: 30px;
+
+}
+
+/*TABLA*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: beige;
+}
+
+/*FILA CABECERA*/
+table th {
+    font-weight: bolder;
+}
+.trUsuario {
+    background-color: #323232;
+}
+.trAyuda {
+    background-color: #202096;
+}
+
+/*FILAS*/
+table th td {
+    border: 1px solid gray;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Filas Usuario*/
+.rowUsuario:nth-child(odd) {
+    background-color: #969696;
+}
+.rowUsuario:nth-child(even) {
+    background-color: #646464;
+}
+
+/*Filas Ayuda*/
+.rowAyuda:nth-child(odd) {
+    background-color: #595ef8;
+}
+.rowAyuda:nth-child(even) {
+    background-color: #5252a4;
+}
+
+/*Filas Añadir*/
+.rowAdd {
+    background-color: #327032;
+}
+
+th, td {
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: greenyellow;
+    color: green;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    width: 100px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkseagreen;
+}
+
+input[type="submit"][value="Borrar"] {
+    background-color: red;
+    color: maroon;
+    width: 100px;
+}
+
+input[type="submit"][value="Borrar"]:hover {
+    background-color: darkred;
+}
+
+h1:last-of-type + table input[type="submit"][value="Borrar"] {
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+h1:last-of-type + table input[type="submit"][value="Borrar"]:hover {
+    background-color: slategrey;
+}
+
+h1:last-of-type + table input[type="submit"][value="Editar"] {
+    background-color: white;
+    color: black;
+    width: 100px;
+}
+
+h1:last-of-type + table input[type="submit"][value="Editar"]:hover {
+    background-color: whitesmoke;
+}

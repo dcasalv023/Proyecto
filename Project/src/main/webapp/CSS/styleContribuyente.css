@@ -1,0 +1,55 @@
+body {
+    font-family: fantasy, SansSerif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: gray;
+}
+
+nav {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+nav div {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div {
+    background-color: whitesmoke;
+    border: 2px solid wheat;
+    margin-bottom: 11px;
+    padding: 11px;
+}
+
+.div form {
+    margin-top: 10px;
+}
+
+.div b {
+    color: grey;
+}
+
+.div input[type="submit"] {
+    background-color: green;
+    border: none;
+    color: whitesmoke;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.div input[type="submit"]:hover {
+    background-color: green;
+}
+
+.empty-message {
+    color: grey;
+    font-style: italic;
+}
